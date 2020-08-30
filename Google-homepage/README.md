@@ -1,0 +1,3 @@
+#Building a Static page...
+
+I tried to build the homepage of <b>Google<b>*(www.google.com)*
