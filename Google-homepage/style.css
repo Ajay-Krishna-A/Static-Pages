@@ -1,0 +1,348 @@
+.container {
+    top: 0;
+    right: 0;
+}
+
+.nav {
+    position: 0;
+    right: 0;
+    margin-top: 0;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.shortcuts {
+    display: flex;
+    float: right;
+    position: 16px;
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+#g-nav-txt {
+    height: 24px;
+    display: flex;
+    line-height: 14px;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.gmail,
+.images {
+    padding: 8px;
+}
+
+#gmail,
+#images {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+#gmail:hover,
+#images:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.g-nav-img {
+    height: 30px;
+    display: flex;
+    float: left;
+    margin-top: 0em;
+    justify-content: space-between;
+}
+
+#launcher {
+    width: 30px;
+    height: 30px;
+    background: url("Images/Laucher.png");
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.85;
+    margin-left: 8px;
+}
+
+#launcher:hover {
+    opacity: 1;
+}
+
+#dp-a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    margin-left: 12px;
+    background-color: #4285f4;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    margin-top: 0;
+}
+
+#dp-a-div {
+    background-color: #4285f4;
+    padding-top: 0px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    line-height: 28px;
+    font-weight: bold;
+    margin-top: 0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+#center {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#google {
+    display: block;
+    width: 100%;
+    height: 438.2;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#googli {
+    width: 272px;
+    height: 92px;
+}
+
+#q-bar {
+    width: 584px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid rgb(226, 220, 220);
+    display: flex;
+    margin: 0 auto;
+    color: #9aa0a6;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+}
+
+#q-bar:hover,
+#q-br:focus ~ .con-input{
+    box-shadow: 0px 0px 5px #d0d7df;
+    border-color: white;
+}
+
+
+#icon {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#q-svg {
+    fill: #9da1a5;
+}
+
+#q-br {
+    display: inline-block;
+    justify-content: center;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+ 
+
+}
+
+
+
+input[type="search"]::-webkit-search-cancel-button {
+    /* select all "X" buttons in search inputs */
+    -webkit-appearance: none;
+    /* hide the default "X" button */
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    background: url("Images/clear-btn.png");
+    background-size: 25px 25px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    border-right: 0.5px solid #9aa0a6;
+}
+
+#q-opt {
+    width: 280px;
+    height: 36px;
+    display: inline-flex;
+    margin: 0;
+    position: sticky;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.g-search,
+.ifl {
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: none;
+    outline: none;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: 100%;
+    border-radius: 3px;
+    color: dimgrey;
+}
+
+.con-input{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: inherit;
+    pointer-events: none;
+
+}
+
+.g-search:hover,
+.ifl:hover {
+    border: 0.6px solid rgb(197, 195, 195);
+    color: black;
+}
+
+
+
+#translate {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 30px;
+}
+
+#translate a {
+    text-decoration: none;
+    color: #190cab;
+    padding: 5px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #f1f1f1;
+    padding-left: 3px;
+}
+
+#country {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 0.08px solid #d9d9da;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: dimgray;
+    padding-left: 27px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#footer2 {
+    display: flex;
+    justify-content: stretch;
+    height: 40px;
+}
+
+#about {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 0.08px solid #d9d9da;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: dimgray;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 3px;
+}
+
+#about ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#about ul li {
+    float: left;
+}
+
+#about ul li a {
+    text-decoration: none;
+    padding: 0 0 0 27px;
+    color: dimgray;
+}
+
+#about ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#about ul li a:active {
+    color: red;
+}
+
+#terms {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 0.08px solid #d9d9da;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: dimgray;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 3px;
+}
+
+#terms ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+
+#terms ul li {
+    float: right;
+}
+
+#terms ul li a {
+    text-decoration: none;
+    padding: 0 27px 0 0;
+    color: dimgray;
+}
+
+#about ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#about ul li a:active {
+    color: red;
+}
